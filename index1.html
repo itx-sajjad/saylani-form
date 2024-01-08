@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     
+    <div class="container">
+        <h1 class="heading">Registration Form - SMIT </h1><br>
+        <form id="signupForm">
+            <label for="select city">Select city:</label>
+            <input type="text" id="select city" name="username" placeholder=" Select city"  required><br>
+           
+            <label for="select event">Select course or event:</label>
+            <input type="text" id="select coure or event" name="Select city" placeholder=" Select course or event"  required><br>
+          
+
+            <label> Full name </label>    
+            <input type="text" name="Full name" placeholder=" Full name" required/><br>
+
+            <label> Father name </label>    
+            <input type="text" name="Father name" placeholder=" Father name" required/><br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required><br>
+           
+
+            <label> Phone </label>    
+            <input type="text" name="hone" placeholder=" Phone" required/><br> 
+
+            <label> CNIC </label>    
+            <input type="text" name="Father's CNIC  (optional)" placeholder=" CNIC" required/><br>
+
+            <label> Father's CNIC (optional) </label>    
+            <input type="text" name="cnic" placeholder=" Father's CNIC (optional)" required/><br>
+
+       <div>
+             Date of birth <input type="date"> <br>
+       </div><br>
+
+            <label">Select gender</label>
+            <input type="text" name="select gender" placeholder="Select gender" required>
+
+            <label> Address </label>    
+            <input type="text" name="address" placeholder=" Address" required/><br> 
+
+
+            <label> Last qualification </label>    
+            <input type="text" name="last qualification" placeholder=" Last qualification" required/><br>
+
+
+
+            <label> Do you have a laptop? </label>    
+            <input type="text" name="Do you have a laptop?" placeholder=" Do you have a laptop?" required/><br> 
+
+            <label">Select gender</label>
+            <select>
+              <option value="male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Other</option>
+            </select><br><br>
+
+            <div>
+                photo:<input type="file">
+                
+
+            </div>
+
+            <p class="parap">With white or blue background
+                File size must be less than 1MB
+                File type: jpg, jpeg, png
+                Upload your recent passport size picture
+                Your Face should be clearly visible without any Glasses
+            </p><hr>
+
+            <div class="parap2">
+        <ol>
+            <li>I hereby, solemnly declare that the data and facts mentioned herein 
+            are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SMIT</li>
+            <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+            <li>Defiance will render my admission canceled at any point in time.</li>
+            <li>Upon completion, of the course, I will complete the required project by SMIT.</li>
+            <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+        </ol>
+          </div>
+            <p id="errorMessage" style="color: red;"></p>
+           
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+    </body>
+    </html>
